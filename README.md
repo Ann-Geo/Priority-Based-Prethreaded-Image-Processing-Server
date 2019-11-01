@@ -5,4 +5,4 @@ Project description\
 • The main thread repeatedly accepts connection requests from clients and places the resulting connected descriptors in a bounded buffer.\
 • Each worker thread repeatedly removes a descriptor from the buffer, services the client, and then waits for the next descriptor. \
 • All the threads are scheduled with the FIFO policy. \
-• The image server applies image processing operations on the image input by the client. These image processing operations are derived from the open source OpenCV library.\
+• The image server applies image processing operations on the image input by the client. These image processing operations are derived from the open source OpenCV library.
